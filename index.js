@@ -8,7 +8,7 @@ class Formatter {
     return str.trim();
   }
   
-  static capitalize(str) {
+  static capitalize(sentence) {
      if(!sentence.split) return sentence;
     var _titleizeWord = function(string) {
             return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
