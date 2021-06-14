@@ -4,7 +4,7 @@ class Formatter {
   }
   
   static sanitize(str) {
-    str = str.replace(/[~!@#$%^&*()_+=]/gim,"");
+    str = str.replace(/[~!@#$%^&*()_+={}]/gim,"");
     return str.trim();
   }
   
