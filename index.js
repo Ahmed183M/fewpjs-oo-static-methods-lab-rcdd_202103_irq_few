@@ -3,8 +3,9 @@ class Formatter {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
   
-  static capitalize(str) {
-    return str.charAt(0).toUpperCase() + str.slice(1);
+  static sanitize(str) {
+    str = str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"");
+    return str.trim();
   }
   
   static capitalize(str) {
