@@ -5,7 +5,7 @@ class Formatter {
   }
   
   static capitalize(string){
-    console.log()
+    this.value[0] = this.value[0].toUpperCase();
   }
   
   static sanitize(string){
