@@ -1,3 +1,6 @@
 class Formatter {
-  //add static methods here
+  static capitalize(string){
+    string[0]=string[0]
+    return 
+  }
 }
