@@ -3,6 +3,7 @@ class Formatter {
   constructor(value){
     this.value = value;
   }
+  
   static capitalize(string){
     console.log()
   }
